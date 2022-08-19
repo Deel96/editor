@@ -12,7 +12,7 @@ inline:
   components:
     - name: theia-ide
       container:
-        image: 'docker.io/browork/ide:latest'
+        image: 'docker.io/browork/ide3100:latest'
         env:
           - name: THEIA_PLUGINS
             value: 'local-dir:///plugins'
